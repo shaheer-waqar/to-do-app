@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-app</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h3>To-DO APP</h3>
+        </div>
+
+        <div class="user-div">
+            <div class="task-inp">
+                <input type="text" id="taskInp" maxlength="50" placeholder="Enter your to-do task">
+            </div>
+            <div class="add-del-btn">
+                <button onclick="taskAdd()">Add</button>
+                <button onclick="clearAll()">Clear</button>
+            </div>
+        </div>
+        <div class="line">
+
+        </div>
+
+        <div class="contain-list" id="toDocontain">
+            <!-- <div style="display: flex;justify-content: space-between; width: 100%;">
+                <p style="width: 80%;"><input type="text" style="width: 80%;" value="hello hello hje jnje iundr hciei incei iniec bjhbhjcb bjibkjc"></p>
+                <div>
+                <button>nice</button>
+                <button>edit</button>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:beige;
+
+}
+.container {
+    width: 400px;
+    /* height: 300px; */
+    margin: 20px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 1px 4px 10px gray;
+    padding: 10px 10px;    
+}
+.container .heading h3 {
+    color: #720455;
+}
+.container .user-div {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #720455; */
+    height: 30px;
+}
+.container .user-div .task-inp{
+    height: 100%;    
+    width: 60%;
+}
+
+.container .user-div .task-inp input{
+    width: 100%;
+    padding: 2px 4px;
+    height: 100%;
+    border-radius: 3px ;
+}
+.container .user-div .task-inp input:focus{
+    outline: 2px solid #3C0753;
+    border: none;
+}
+
+.container .user-div .add-del-btn {
+    height: 100%;
+
+}
+.container .user-div .add-del-btn button {
+    width: 55px;
+    height: 100%;
+    background-color: #910A67;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.container .user-div .add-del-btn button:hover{
+    background-color: #5a063f;
+
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: #910A67;
+}
+.contain-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3px;
+}
+.task-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 3px;
+    
+}
+.task-div:hover{
+    background-color: #a7a6a634;
+
+}
+
+.task-div p{
+    width: 70%;
+    line-height: 18px;
+    font-size: 0.9em;
+    color: #3C0753;
+    word-wrap: break-word;
+}
+.task-div p input{
+    width: 100%;
+    height: 100;
+    padding:0 4px ;
+}
+.task-btn {
+    display: flex;
+    width: 20%;
+    height: 80%;
+    justify-content: space-between;
+    
+}
+.task-btn button{
+    width: 35px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3C0753;
+    color: white;
+}
+
+.linelist {
+    width: 100%;
+    height: 0.08px;
+    background-color: black;
+}
+
+@media (max-width:750px){
+    .container{
+        width: 350px;
+    }
+
+    .task-btn button {
+        width: 30px;
+        height: 20px;
+
+    }
+   
+    
+}
+    
